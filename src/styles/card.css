@@ -1,0 +1,25 @@
+.card-container {
+  border-width: 1px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: grey;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.btn {
+  padding: 5px;
+  margin: auto;
+}
+
+.card-text {
+  padding: 5px;
+  margin: auto;
+}
+
+.card-footer {
+  padding: 5px;
+  border-top: 1px solid grey;
+}

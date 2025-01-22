@@ -1,8 +1,9 @@
 import React from "react";
+import "../../styles/card.css";
 
 function MyCard() {
   return (
-    <div class="card containter">
+    <div class="card-container">
       <img
         class="card-img-top"
         src="https://placedog.net/800/640?id=59"
@@ -14,9 +15,11 @@ function MyCard() {
           Some quick example text to build on the card title and make up the
           bulk of the cards content.
         </p>
-        <a href="#" class="btn btn-primary">
-          Go somewhere
-        </a>
+        <div className="card-footer">
+          <a href="#" class="btn btn-primary">
+            Go somewhere
+          </a>
+        </div>
       </div>
     </div>
   );
