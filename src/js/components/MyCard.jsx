@@ -1,11 +1,13 @@
 import React from "react";
-import Button from "react-bootstrap/Button";
-import Card from "react-bootstrap/Card";
 
 function MyCard() {
   return (
-    <div class="card m-5">
-      <img class="card-img-top" src="..." alt="Card image cap" />
+    <div class="card containter">
+      <img
+        class="card-img-top"
+        src="https://placedog.net/800/640?id=59"
+        alt="Card image cap"
+      />
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">
